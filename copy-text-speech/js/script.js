@@ -22,32 +22,6 @@
 
    //texts.appendChild(p);
  });
-
-    // (A4) ON SPEECH RECOGNITION - RUN CORRESPONDING COMMAND
-    voice.recog.onresult = (evt) => {
-      let said = evt.results[0][0].transcript.toLowerCase();
-      if (cmd[said]) { cmd[said](); }
-      else { said += " (command not found)"; }
-      voice.wrap.innerHTML = said;
-      voice.stop();
-    };
-
-    // (D) COMMANDS LIST
-var cmd = {
-  "aan" : () => {
-    voice.wrap.style.backgroundColor = "yellow";
-    voice.wrap.style.color = "black";
-  },
- 
-  "power off" : () => {
-    voice.wrap.style.backgroundColor = "black";
-    voice.wrap.style.color = "white";
-  },
- 
-  "say hello" : () => {
-    alert("Hello World!");
-  }
-};
  // turn on to start speech recognition
  recognition.start();
 
