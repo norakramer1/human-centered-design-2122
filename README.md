@@ -22,14 +22,22 @@ In mijn uiteindelijke concept kun je doormiddel van spraak zoeken in een stuk te
 - Alle instanties van een woord verangen door een ander woord
 
 ## Exclusive Design Principles
-In dit vak werk je leren met Exlusive Design Principles. 
+In dit vak werk je leren met Exlusive Design Principles. Dit is het omgekeerde van Inclusive design. In plaats van te kijken naar hoe je kunt zorgen dat je een website kunt laten werken voor zo veel mogelijk gebruikers richt je je op een iemand. Aan de hand van deze 4 principes kom je hopelijk op een product wat echt voor een iemand gemaakt is,
 
 ### Study Situation
-### Priotize identity
-### Ignore conventions
-### Add nonsense
+In de situatie van Eric vind hij het moeilijk om toetsenbord combinaties te maken waarbij je vingers ver uit elkaar moeten bewegen. Ook heeft hij soms moeite met heel precies zijn in het gebruik van zijn muis, met bijvoorbeeld hele specifieke kleine knoppen of sprecieze selectie tussen woorden. Maar de meeste dingen gaan voor Eric eigenlijk prima. Hij kan zijn muis goed gebruiken en hij gebruikt zijn toetsenbord ook. Maar toch wilde hij als ontwerper deze website ook toegankelijk maken voor mensen die hun toetsenbord of muis minder goed kunnen gebruiken. Vandaar dat hij geïtresseerd was in Spraak naar Tekst. 
 
-## Features
+Uiteindelijk heb ik me gefocust op het selecteren en veranderen van woorden binnen in een teskt zodat Eric snel met spraak teksten en e-mails zou kunnen veranderen. Zo zou hij namen, data en fout gespelde woorden kunnen aanpassen zonder dat hij heel specifiek met zijn muis 1 woord moet selecteren.
+
+### Priotize identity
+Tijdens de eerste test kwam ik erachter dat Eric graag snel werkt. Hij heeft geen tijd om aandachtig te onderzoeken maar wil vooral alles uitproberen en testen. Ik ben begonnen met selecteren en het aan en uitzetten van spraak met knoppen maar kwam er uiteindelijk achter dat het niet zo fijn werkte om elke keer op spraak te moeten wachten.
+
+### Ignore conventions
+Knippen en plakken doen de meeste mensen met CMD/CTRL+C en CMD/CTRL+V of de rechter muisknop, en selecteren door te 'draggen' over een aantal regels tekst Maar voor Eric is dit dus erg onhandig. Daarom heb ik gebruik gemaakt van de Speech Recognition API die gesproken tekst kan omzetten in geschreven woorden en zinnen. Zo kan hij kan hij toch snel woorden aanpassen zonder voor hem soms moeilijke handelingen uit te voeren.
+
+### Add nonsense
+Ik kwam er tijdens het werken met de web API achter dat het nog best wel een kunst is om te weten wanneer het naar je luisterd en wanneer het stopt, maar vooral ook of het het juiste hoort. Om die reden heb ik nadat je een woord succesvol vervangen hebt in de tekst een victory geluid toegevoegd om te laten zien dat het toch kan werken.
+
 ## Testverslag
 
 ### Week 1
