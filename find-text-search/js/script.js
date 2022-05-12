@@ -10,10 +10,11 @@ const recognition = new SpeechRecognition();
 recognition.lang = "nl-NL";
 recognition.interimResults = false;
 
+// start recognition when you open the page
 recognition.start();
 
-recognition.addEventListener('result', (e) => {
-  //console.log(e.results);
+// Record a transcript of said word and find the right input value and add the transcript text
+recognition.addEventListener('result', (e) => {;
 
   text = Array.from(e.results)
     .map(result => result[0])
@@ -39,26 +40,7 @@ recognition.addEventListener('result', (e) => {
 
 });
 
-// recognition.addEventListener('speechend', () => {
-//   recognition.stop();
-//   recognition.start();
-// })
-// turn on to start speech recognition
-
-// inputs[1].addEventListener('focus', (e) => {
-
-
-//   console.log('select other input');
-//   const text = Array.from(e)
-//   .map(result => result[0])
-//   .map(result => result.transcript)
-//   .join('');
-
-// inputs[1].value = text;
-
-//  });
-
-
+// find value in text and replace it with value from form input
 function doFindAndReplace(ev) {
   ev.preventDefault();
 
@@ -69,15 +51,6 @@ function doFindAndReplace(ev) {
   p.textContent = p.textContent.replaceAll(inputs[0].value, inputs[1].value);
 
 }
-//let p = document.createElement("p");
-
-
-// bron: https://www.youtube.com/watch?v=-k-PgvbktX4
-
-// nl-NL
 
 
 form.addEventListener('submit', doFindAndReplace);
-
-
-//let el = document.getElementById(parseInt(elem.id) +1).focus();
