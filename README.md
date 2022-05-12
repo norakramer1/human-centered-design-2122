@@ -40,7 +40,7 @@ Ik kwam er tijdens het werken met de web API achter dat het nog best wel een kun
 ## Testverslag
 
 ### Week 1
-![week 1](https://github.com/norakramer1/human-centered-design-2122/blob/main/find-text-search/img/week1.png)
+![week 1](https://github.com/norakramer1/human-centered-design-2122/blob/main/v3/img/week1.png)
 
 - Prototype v1
 In de eerste week wist ik nog niks over Eric en wat hij wilde en nodig had. Ik wist alleen dat ik een applicatie waar in je kon kopieëren met spraak ging maken. Ik ben begonnen met een tekst aan de linkerkant, je kunt praten als de microfoon aan staat en een transcript word getypt in de textarea zodat je deze kunt kopieëren en gebruiken. Op deze manier kun je tekst selecteren en kopieëren.
@@ -73,7 +73,7 @@ Eric wilde zo snel mogelijk aan de gang. Als je de pagina laad kun je niet metee
 
 
 ### Week 2
-![week 2](https://github.com/norakramer1/human-centered-design-2122/blob/main/find-text-search/img/week2.png)
+![week 2](https://github.com/norakramer1/human-centered-design-2122/blob/main/v3/img/week2.png)
 
 - Prototype v2
 In de tweede week heb ik me gefocust op 'hoe kan ik tekst selecteren?' Ik heb de spraak naar tekst voor later gelaten en wilde eerst selecteren.
@@ -106,7 +106,7 @@ In de tweede week heb ik me gefocust op 'hoe kan ik tekst selecteren?' Ik heb de
     - Nadenken over knoppen toevoegen als je begint
 
 ### Week 3
-![week 3](https://github.com/norakramer1/human-centered-design-2122/blob/main/find-text-search/img/week3.png)
+![week 3](https://github.com/norakramer1/human-centered-design-2122/blob/main/v3/img/week3.png)
 
 - Prototype v3
 In de laatste week heb ik gewerkt om zonder knoppen maar met alleen spraak een woord in de tekst te kunnen veranderen naar een ander woord. Dit is uiteindelijk ook gelukt. Eric kan nu een woord zeggen wat in een inputveld terecht komt, daarna focust het zich op een tweede inputveld van het woord waar het in veranderd moet worden, hier kun je ook een woord in zeggen. Als laatste kun je 'Verander' zeggen en het woord wordt veranderd.
