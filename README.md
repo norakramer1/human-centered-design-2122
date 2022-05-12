@@ -40,7 +40,7 @@ Ik kwam er tijdens het werken met de web API achter dat het nog best wel een kun
 ## Testverslag
 
 ### Week 1
-!()[]
+!(https://github.com/norakramer1/human-centered-design-2122/blob/main/find-text-search/img/week1.png)[week1]
 - Prototype v1
 In de eerste week wist ik nog niks over Eric en wat hij wilde en nodig had. Ik wist alleen dat ik een applicatie waar in je kon kopieëren met spraak ging maken. Ik ben begonnen met een tekst aan de linkerkant, je kunt praten als de microfoon aan staat en een transcript word getypt in de textarea zodat je deze kunt kopieëren en gebruiken. Op deze manier kun je tekst selecteren en kopieëren.
 
