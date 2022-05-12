@@ -1,6 +1,5 @@
 # Human Centered Design
 
-
 ## table of contents
 ## Description
 De opdracht in dit vak is om een applicatie te ontwerpen voor 1 mens. Die mens is Eric. Hij heeft moeite met toetsenbord combinaties en kopieëren en plakken van tekst. Zijn vraag is om dit met spraakcommando's op te kunnen lossen
@@ -36,25 +35,101 @@ Tijdens de eerste test kwam ik erachter dat Eric graag snel werkt. Hij heeft gee
 Knippen en plakken doen de meeste mensen met CMD/CTRL+C en CMD/CTRL+V of de rechter muisknop, en selecteren door te 'draggen' over een aantal regels tekst Maar voor Eric is dit dus erg onhandig. Daarom heb ik gebruik gemaakt van de Speech Recognition API die gesproken tekst kan omzetten in geschreven woorden en zinnen. Zo kan hij kan hij toch snel woorden aanpassen zonder voor hem soms moeilijke handelingen uit te voeren.
 
 ### Add nonsense
-Ik kwam er tijdens het werken met de web API achter dat het nog best wel een kunst is om te weten wanneer het naar je luisterd en wanneer het stopt, maar vooral ook of het het juiste hoort. Om die reden heb ik nadat je een woord succesvol vervangen hebt in de tekst een victory geluid toegevoegd om te laten zien dat het toch kan werken.
+Ik kwam er tijdens het werken met de web API achter dat het nog best wel een kunst is om te weten wanneer het naar je luistert en wanneer het stopt, maar vooral ook of het het juiste hoort. Om die reden heb ik nadat je een woord succesvol vervangen hebt de achtergrond een andere kleur gegeven.
 
 ## Testverslag
 
 ### Week 1
 - Prototype v1
+In de eerste week wist ik nog niks over Eric en wat hij wilde en nodig had. Ik wist alleen dat ik een applicatie waar in je kon kopieëren met spraak ging maken. Ik ben begonnen met een tekst aan de linkerkant, je kunt praten als de microfoon aan staat en een transcript word getypt in de textarea zodat je deze kunt kopieëren en gebruiken. Op deze manier kun je tekst selecteren en kopieëren.
+
 - Features om te testen
+    - Is een transcript van een tekst spreken de juiste manier om tekst te kopieëren?
+    - Zijn er knoppen nodig of is met makkelijker om de microfoon meteen aan te zetten als je de pagina laad?
+
 - Testverslag
-- Takaways
+    - Transcript
+Een zin zeggen met de API en die dan in een tekstveld krijgen is niet heel handig. Het is moeilijk om er punctuatie van van zinnen toe te passen en je krijgt veel woordfouten in de tekst. Daardoor start het probleem zicht opnieuw met het selecteren. Ook is het onhandig dat de API nu in het engels ingesteld staat.
+
+    - Knoppen
+Eric wilde zo snel mogelijk aan de gang. Als je de pagina laad kun je niet meteen zien of je kan beginnen of dat je een knop moet indrukken.
+
+- Notities 
+    - Voor gebruiksvriendelijkheid geen knop om te activeren
+    - spreadsheet data kopiëren en plakken
+    - gebruik je de tekst letterlijk opnieuw?
+    - Hoe kun je verschillende soorten informatie selecteren binnen het document (headings, links)
+    - opmaak verschillen tussen documenten 
+    - Websites met styling/ formatting wordt meegenomen
+    - Misschien een Chrome Extention om het overal te laten werken
+
+- Aanpassingen voor de volgende keer
+    - Focussen op tekst selecteren en aanpassen voor in emails en brieven
+    - Knoppen weghalen waar dat nodig is.
+    - Feedback toevoegen voor als er iets gebeurd
+    - Ook in het Nederlands kunnen selecteren
+
 
 ### Week 2
 - Prototype v2
+In de tweede week heb ik me gefocust op 'hoe kan ik tekst selecteren?' Ik heb de spraak naar tekst voor later gelaten en wilde eerst selecteren.
+
+- Features om te testen
+    - Is tekst zoeken die je kunt selecteren en veranderen een betere manier van werken?
+    - Zou dit ook nog met spraak kunnen?
+
 - Testverslag
-- Takeaways
+    - Meerdere woorden kopiëren?
+    - Werkt het nog steeds als er een woord fout spelt?
+    - door de verschillende instanties van een woord heen tabben
+    - zou het met spraak naar tekst kunnen
+
+- Notities
+    - hand over muis om te selecteren, knippen en plakken
+    - knop indrukken gaat goed
+    - navigeren op een andere manier
+    - hoe kom je op een andere manier naar plekken op het scherm
+    - grote teksten bijv.
+    - toetsenbord gebruik is niet mogelijk
+    - spraak alleen na drukken op knop
+    - microfoon eerst uit, of als aan is feedback geven over dat het aan is
+    - feedback over of iets juist geselecteerd is, is het de juiste tekst? zo niet, hoe kun je het veranderen? selecteren en kopiëren te gelijkertijd.
+    
+- Aanpassingen voor de volgende keer
+    - Proberen om van..tot kunnen kopieëren
+    - Tabben door verschillende instanties van een woord
+    - Zorgen dat je het woord met spraak kunt veranderen
+    - Nadenken over knoppen toevoegen als je begint
 
 ### Week 3
 - Prototype v3
+In de laatste week heb ik gewerkt om zonder knoppen maar met alleen spraak een woord in de tekst te kunnen veranderen naar een ander woord. Dit is uiteindelijk ook gelukt. Eric kan nu een woord zeggen wat in een inputveld terecht komt, daarna focust het zich op een tweede inputveld van het woord waar het in veranderd moet worden, hier kun je ook een woord in zeggen. Als laatste kun je 'Verander' zeggen en het woord wordt veranderd.
+
+- Features om te testen
+    - Zonder knoppen de website bedienen
+    - textvelden automatisch laten focussen
+    - tekstvelden invullen met spraak
+
 - Testverslag
-- Takeaways
+    - kunnen kiezen of je alle instanties van een woord vervangt of 1
+    - feedback toevoegen (die is er nu wel als je praat)
+    - andere focusstates
+    - een knop tussen alle de selecteer en verangknoppen
+    - highlighted waar de tekst veranderd is
+    - Hoofdletters zien
+    
+- Notities
+    - feedback toevoegen, wat gebeurd er
+    - selecteren door lang vast te houden en de tekst te slepen
+    - veel kleur groen/geel
+    - selecteren doormiddel van lang klikken ipv twee keer klikken was handig geweest
+
+### Reflectie
+Er zijn nog een hoop dingen die moeten gebeuren om dit goed te laten werken. De website vind het nog moeilijk om te bepalen wanneer iemand praat waardoor je lang moet wachten en geen feedback kunt krijgen. Ook zou ik nog willen kijken naar selecteren van een bepaald woord tot een ander woord. Ik zag in de test ook dat je niet goed weet of een woord veranderd is omdat het woord niet meer bestaat, een oplossing zou zijn om de tekst te highlighten. Ook had ik nog meer identiteit toe willen voegen. 
 
 ## Wishlist 
-## License
+- Van...tot kunnen selecteren
+- Meer feedback toevoegen in het vervangen, misschien vervangen tekst higlighten
+- Een manier om terug te gaan naar een van de inputvelden
+- Een knop toevoegen om van het zoeken naar het vervangen te gaan
+- Een duidelijker woord voor 'vervangen' bedenken om te kijken of het beter opgevangen wordt
