@@ -1,15 +1,15 @@
 # Human Centered Design
 
 ## table of contents
--[Description](#Description)
--[Over Eric](#over-eric)
--[Eric's Scenario](#eric's-scenario)
--[Concept](#concept)
--[Features](#features)
--[Exclusive design principles](#exclusive-design-principles)
--[Testverslag](#testverslag)
--[Reflectie](#reflectie)
--[Wishlist](#wishlist)
+- [Description](#Description)
+- [Over Eric](#over-eric)
+- [Eric's Scenario](#eric's-scenario)
+- [Concept](#concept)
+- [Features](#features)
+- [Exclusive design principles](#exclusive-design-principles)
+- [Testverslag](#testverslag)
+- [Reflectie](#reflectie)
+- [Wishlist](#wishlist)
 
 
 ## Description
