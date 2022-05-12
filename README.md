@@ -1,6 +1,17 @@
 # Human Centered Design
 
 ## table of contents
+-[Description](#Description)
+-[Over Eric](#over-eric)
+-[Eric's Scenario](#eric's-scenario)
+-[Concept](#concept)
+-[Features](#features)
+-[Exclusive design principles](#exclusive-design-principles)
+-[Testverslag](#testverslag)
+-[Reflectie](#reflectie)
+-[Wishlist](#wishlist)
+
+
 ## Description
 De opdracht in dit vak is om een applicatie te ontwerpen voor 1 mens. Die mens is Eric. Hij heeft moeite met toetsenbord combinaties en kopieëren en plakken van tekst. Zijn vraag is om dit met spraakcommando's op te kunnen lossen
 
