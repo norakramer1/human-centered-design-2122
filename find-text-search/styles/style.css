@@ -66,12 +66,20 @@ input[type=text] {
     padding: 5%;
 }
 
+input[type=text]:focus {
+    outline: 3px solid rgb(30, 90, 30);
+}
+
 input[type=submit] {
     background-color: rgb(30, 90, 30);
     color: white;
     padding: 10px 20px 10px 20px;
     border: none;
     border-radius: 25px;
+}
+
+input[type=submit]:focus {
+    outline: 3px solid rgb(12, 50, 12); 
 }
 
 form {
