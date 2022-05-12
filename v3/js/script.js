@@ -4,6 +4,7 @@ let p = document.querySelector('p');
 let inputFocus = inputs[0].focus();
 let otherInput, text;
 
+
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
@@ -32,10 +33,10 @@ recognition.addEventListener('result', (e) => {;
     } else if(document.activeElement === inputs[2]) {
       if(text === 'vervang') {
         inputs[2].click();
+        
       }
       // recognition.stop();
     } 
-  
   console.log(text)
 
 });

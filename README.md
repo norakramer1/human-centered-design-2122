@@ -35,7 +35,7 @@ Tijdens de eerste test kwam ik erachter dat Eric graag snel werkt. Hij heeft gee
 Knippen en plakken doen de meeste mensen met CMD/CTRL+C en CMD/CTRL+V of de rechter muisknop, en selecteren door te 'draggen' over een aantal regels tekst Maar voor Eric is dit dus erg onhandig. Daarom heb ik gebruik gemaakt van de Speech Recognition API die gesproken tekst kan omzetten in geschreven woorden en zinnen. Zo kan hij kan hij toch snel woorden aanpassen zonder voor hem soms moeilijke handelingen uit te voeren.
 
 ### Add nonsense
-Ik kwam er tijdens het werken met de web API achter dat het nog best wel een kunst is om te weten wanneer het naar je luistert en wanneer het stopt, maar vooral ook of het het juiste hoort. Om die reden heb ik nadat je een woord succesvol vervangen hebt de achtergrond een andere kleur gegeven.
+Ik kwam er tijdens het werken met de web API achter dat het nog best wel een kunst is om te weten wanneer het naar je luistert en wanneer het stopt, maar vooral ook of het het juiste hoort. Ik had een aantal ideeën om nonsense toe te voegen en dit samen te doen met feedback over of het gelukt is. Ik wilde een audio fragment af laten spelen als je klaar bent (dit kan vanwege security niet meer in Chrome). Of een leuke animatie toevoegen maar ik ben hier niet meer aan toe gekomen.
 
 ## Testverslag
 
@@ -139,3 +139,4 @@ Er zijn nog een hoop dingen die moeten gebeuren om dit goed te laten werken. De 
 - Een manier om terug te gaan naar een van de inputvelden
 - Een knop toevoegen om van het zoeken naar het vervangen te gaan
 - Een duidelijker woord voor 'vervangen' bedenken om te kijken of het beter opgevangen wordt
+- Meer nonsense
